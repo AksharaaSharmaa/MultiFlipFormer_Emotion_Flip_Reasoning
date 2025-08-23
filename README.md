@@ -1,9 +1,12 @@
+<div align="center">
+
 # MultiFlipFormer: Emotion Flip Reasoning & Instigator Detection
+
+</div>
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-2025.XXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 
 ## 🎯 Abstract
 
@@ -424,54 +427,6 @@ class CustomTherapyDataset(TherapyConversationDataset):
 
 ---
 
-## 🔮 Future Work
-
-### Short-term Roadmap (3-6 months)
-- [ ] **Acoustic Integration**: Add speech prosody features
-- [ ] **Real-time Processing**: Optimize for live conversation analysis
-- [ ] **Mobile Deployment**: Create lightweight model variants
-- [ ] **Multilingual Support**: Extend to Spanish and Chinese datasets
-
-### Long-term Vision (6-12 months)
-- [ ] **Reinforcement Learning**: Train intervention recommendation systems
-- [ ] **Causal Inference**: Move beyond correlation to causation
-- [ ] **Personalization**: Adapt models to individual communication styles
-- [ ] **Clinical Validation**: Conduct trials with practicing therapists
-
-### Research Directions
-- **Explainable AI**: Provide interpretable explanations for predictions
-- **Few-shot Learning**: Adapt to new therapy domains with limited data
-- **Ethical AI**: Address bias and fairness in emotion recognition
-- **Privacy Preservation**: Develop federated learning approaches
-
----
-
-## 📚 Citation
-
-If you use MultiFlipFormer in your research, please cite:
-
-```bibtex
-@article{multiflipformer2025,
-  title={MultiFlipFormer: Multimodal Emotion Flip Reasoning and Instigator Detection in Therapeutic Conversations},
-  author={[Your Name] and [Co-authors]},
-  journal={arXiv preprint arXiv:2025.XXXX},
-  year={2025},
-  url={https://github.com/your-username/multiflipformer}
-}
-```
-
-### Related Publications
-```bibtex
-@inproceedings{mesc2023,
-  title={MESC: A Multimodal Emotion-Sensitive Conversation Dataset for Intelligent Agents},
-  author={Chu, Yuqian and others},
-  booktitle={Proceedings of ACL},
-  year={2023}
-}
-```
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions from the research community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
@@ -495,34 +450,8 @@ We welcome contributions from the research community! Please see our [Contributi
 ## 📞 Contact & Support
 
 ### Primary Maintainers
-- **[Your Name]** - Lead Developer - [your.email@institution.edu]
+- **[Akshara Sharma]** - Lead Developer - [akshara.sharma.contact@gmail.com]
 - **[Co-author]** - Research Scientist - [coauthor@institution.edu]
-
-### Community
-- **GitHub Issues**: [Report bugs and request features](https://github.com/your-username/multiflipformer/issues)
-- **Discussions**: [Join our research discussions](https://github.com/your-username/multiflipformer/discussions)
-- **Twitter**: [@YourHandle](https://twitter.com/yourhandle) for updates
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-[Full MIT License text...]
-```
 
 ---
 
@@ -533,13 +462,5 @@ furnished to do so, subject to the following conditions:
 - **PyTorch Team**: For the deep learning framework
 - **Research Community**: For valuable feedback and contributions
 
----
-
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/your-username/multiflipformer?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/multiflipformer?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/multiflipformer)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/multiflipformer)
 
 **Made with ❤️ for the emotion AI research community**
