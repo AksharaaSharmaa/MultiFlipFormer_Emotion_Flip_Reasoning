@@ -454,7 +454,6 @@ We welcome contributions from the research community! Please see our [Contributi
 
 ### Primary Maintainers
 - **[Akshara Sharma]** - Lead Developer - [akshara.sharma.contact@gmail.com]
-- **[Co-author]** - Research Scientist - [coauthor@institution.edu]
 
 ---
 
