@@ -3,6 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2025.XXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 
 ## 🎯 Abstract
 
@@ -45,35 +46,51 @@ Current emotion recognition systems face several critical limitations:
 
 ## 🏗️ Architecture Overview
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    MultiFlipFormer Architecture                 │
-├─────────────────────────────────────────────────────────────────┤
-│  Input Layer                                                    │
-│  ├── Text Encoder (DistilRoBERTa)                              │
-│  ├── Visual Encoder (Sentence-BERT)                            │
-│  ├── Strategy Embeddings                                        │
-│  ├── Scenario Embeddings                                        │
-│  └── Speaker Role Embeddings                                    │
-├─────────────────────────────────────────────────────────────────┤
-│  Fusion Layer                                                   │
-│  ├── Multimodal Feature Concatenation                          │
-│  ├── Cross-Modal Attention                                      │
-│  └── Hidden Space Projection                                    │
-├─────────────────────────────────────────────────────────────────┤
-│  Temporal Modeling                                              │
-│  ├── Emotion-Aware Attention                                    │
-│  ├── Transformer Encoder Stack                                  │
-│  └── Positional Emotion Encoding                                │
-├─────────────────────────────────────────────────────────────────┤
-│  Output Heads                                                   │
-│  ├── Flip Detection (Binary Classification)                     │
-│  ├── Flip Type Classification (Multi-class)                     │
-│  ├── Instigator Detection (Multi-label)                        │
-│  ├── Next Emotion Prediction (7-class)                         │
-│  └── Trajectory Forecasting (Sequence Prediction)               │
-└─────────────────────────────────────────────────────────────────┘
-```
+### High-Level System Architecture
+
+<div align="center">
+  <img src="assets/model1.png" alt="MultiFlipFormer System Architecture" width="800">
+  <br>
+  <em>Figure 1: Complete MultiFlipFormer system architecture showing multimodal input processing, fusion mechanisms, and multi-task output heads.</em>
+</div>
+
+### Detailed Model Components
+
+<div align="center">
+  <img src="assets/model2.png" alt="MultiFlipFormer Detailed Architecture" width="800">
+  <br>
+  <em>Figure 2: Detailed view of the emotion-aware attention mechanism and temporal modeling components within MultiFlipFormer.</em>
+</div>
+
+### Architecture Components
+
+The MultiFlipFormer architecture consists of five main components:
+
+**1. Multimodal Input Processing**
+- **Text Encoder**: DistilRoBERTa for contextual text understanding
+- **Visual Encoder**: Sentence-BERT for visual description embedding
+- **Auxiliary Features**: Strategy, scenario, and speaker role embeddings
+
+**2. Feature Fusion Layer**
+- Cross-modal attention mechanisms
+- Adaptive feature weighting
+- Unified representation learning
+
+**3. Temporal Modeling**
+- Emotion-aware self-attention
+- Positional emotion encoding
+- Multi-layer transformer stack
+
+**4. Multi-Task Output Heads**
+- Emotion flip detection
+- Flip type classification
+- Instigator identification
+- Emotion trajectory forecasting
+
+**5. Loss Optimization**
+- Weighted multi-task learning
+- Dynamic loss balancing
+- Gradient harmonization
 
 ---
 
@@ -407,6 +424,54 @@ class CustomTherapyDataset(TherapyConversationDataset):
 
 ---
 
+## 🔮 Future Work
+
+### Short-term Roadmap (3-6 months)
+- [ ] **Acoustic Integration**: Add speech prosody features
+- [ ] **Real-time Processing**: Optimize for live conversation analysis
+- [ ] **Mobile Deployment**: Create lightweight model variants
+- [ ] **Multilingual Support**: Extend to Spanish and Chinese datasets
+
+### Long-term Vision (6-12 months)
+- [ ] **Reinforcement Learning**: Train intervention recommendation systems
+- [ ] **Causal Inference**: Move beyond correlation to causation
+- [ ] **Personalization**: Adapt models to individual communication styles
+- [ ] **Clinical Validation**: Conduct trials with practicing therapists
+
+### Research Directions
+- **Explainable AI**: Provide interpretable explanations for predictions
+- **Few-shot Learning**: Adapt to new therapy domains with limited data
+- **Ethical AI**: Address bias and fairness in emotion recognition
+- **Privacy Preservation**: Develop federated learning approaches
+
+---
+
+## 📚 Citation
+
+If you use MultiFlipFormer in your research, please cite:
+
+```bibtex
+@article{multiflipformer2025,
+  title={MultiFlipFormer: Multimodal Emotion Flip Reasoning and Instigator Detection in Therapeutic Conversations},
+  author={[Your Name] and [Co-authors]},
+  journal={arXiv preprint arXiv:2025.XXXX},
+  year={2025},
+  url={https://github.com/your-username/multiflipformer}
+}
+```
+
+### Related Publications
+```bibtex
+@inproceedings{mesc2023,
+  title={MESC: A Multimodal Emotion-Sensitive Conversation Dataset for Intelligent Agents},
+  author={Chu, Yuqian and others},
+  booktitle={Proceedings of ACL},
+  year={2023}
+}
+```
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions from the research community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
@@ -430,7 +495,8 @@ We welcome contributions from the research community! Please see our [Contributi
 ## 📞 Contact & Support
 
 ### Primary Maintainers
-- **[Akshara Sharma]** - Lead Developer - [akshara.sharma.contact@gmail.com]
+- **[Your Name]** - Lead Developer - [your.email@institution.edu]
+- **[Co-author]** - Research Scientist - [coauthor@institution.edu]
 
 ### Community
 - **GitHub Issues**: [Report bugs and request features](https://github.com/your-username/multiflipformer/issues)
@@ -469,5 +535,11 @@ furnished to do so, subject to the following conditions:
 
 ---
 
+## 📊 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/your-username/multiflipformer?style=social)
+![GitHub forks](https://img.shields.io/github/forks/your-username/multiflipformer?style=social)
+![GitHub issues](https://img.shields.io/github/issues/your-username/multiflipformer)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/multiflipformer)
 
 **Made with ❤️ for the emotion AI research community**
