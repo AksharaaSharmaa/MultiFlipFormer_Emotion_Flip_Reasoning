@@ -453,7 +453,7 @@ We welcome contributions from the research community! Please see our [Contributi
 ## 📞 Contact & Support
 
 ### Primary Maintainers
-- **[Akshara Sharma]** - Lead Developer - [akshara.sharma.contact@gmail.com]
+- **Akshara Sharma* - Lead Developer - [akshara.sharma.contact@gmail.com]
 
 ---
 
