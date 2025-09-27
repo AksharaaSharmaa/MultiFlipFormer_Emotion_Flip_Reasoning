@@ -55,7 +55,7 @@ Current emotion recognition systems face several critical limitations:
 ### High-Level System Architecture
 
 <div align="center">
-  <img src="assets/model1.png" alt="MultiFlipFormer System Architecture" width="800">
+  <img src="assets/model_new.png" alt="MultiFlipFormer System Architecture" width="800">
   <br>
   <em>Figure 1: Complete MultiFlipFormer system architecture showing multimodal input processing, fusion mechanisms, and multi-task output heads.</em>
 </div>
