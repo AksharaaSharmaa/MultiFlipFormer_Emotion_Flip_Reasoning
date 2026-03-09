@@ -234,7 +234,7 @@ def compute_loss(self, outputs, labels):
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/multiflipformer.git
+git clone https://github.com/AksharaaSharmaa/multiflipformer.git
 cd multiflipformer
 
 # Create virtual environment
